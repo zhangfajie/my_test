@@ -1,0 +1,1 @@
+package com.itcast.pojo;import lombok.Data;import java.util.List;/** * Created by zhangfajie on 2020/5/28. */@Datapublic class Roles {    private Integer roleid;    private String rolename;    private List<User> users;    private List<Menu> menus;}

@@ -1,0 +1,1 @@
+package com.itcast;/** * Created by zhangfajie on 2020/6/11. */public class parent {    public parent(){        System.out.println("parent");        main();    }    public void  main(){        System.out.println("父类的方法");    }}

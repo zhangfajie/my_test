@@ -1,0 +1,1 @@
+package com.itcast.pojo;import lombok.Data;/** * Created by zhangfajie on 2020/5/28. */@Datapublic class User {    private Integer id;    private String name;    private Integer age;    private String address;    private Roles roles;}

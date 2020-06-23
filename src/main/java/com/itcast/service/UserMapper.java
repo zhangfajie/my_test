@@ -1,0 +1,1 @@
+package com.itcast.service;import com.itcast.pojo.Roles;import com.itcast.pojo.User;import org.apache.ibatis.annotations.Mapper;import java.util.List;/** * Created by zhangfajie on 2020/5/28. */@Mapperpublic interface UserMapper {    User finId(Integer userid);    List<User> finAll();    List<User> finId_1();}

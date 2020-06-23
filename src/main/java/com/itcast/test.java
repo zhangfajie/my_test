@@ -1,0 +1,1 @@
+package com.itcast;/** * Created by zhangfajie on 2020/6/11. */public class test extends  parent{    test(){        super();        main();    }    public void  main(){        System.out.println("子类的方法");    }    public static void main(String[] args) {        test t=new test();    }}
